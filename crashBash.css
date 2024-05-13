@@ -1,0 +1,94 @@
+@import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 2;
+}
+
+header section {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: rgb(8, 37, 77);
+    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
+    border-bottom: 10px solid #0081CC;
+}
+
+.logo {
+    background-image: url(imgs/Logo_Tab.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: fit-content;
+    z-index: 1;
+    position: absolute;
+    top: -20%;
+    left: 1rem;
+}
+
+.logo img {
+    width: 14rem;
+    padding: 4rem 2rem;
+    cursor: pointer;
+}
+
+.menu {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    align-items: center;
+}
+
+.menu img {
+    width: 5rem;
+}
+
+main {
+    overflow: hidden;
+    background-image: url(imgs/e6.jpg);
+    background-size: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre img {
+    width: 60%;
+}
+
+.sobre img:first-child {
+    margin-bottom: 4%;
+}
+
+.game {
+    position: relative;
+    margin-right: 10%;
+}
+
+.game iframe {
+    height: 25rem;
+    width: 30rem;
+}
+
+footer {
+    height: 10rem;
+    background: rgb(8, 37, 77);
+    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
+    border-top: 10px solid #0081CC;
+    color: white;
+}

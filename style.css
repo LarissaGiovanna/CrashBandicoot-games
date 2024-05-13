@@ -1,0 +1,189 @@
+@import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 2;
+}
+
+header section {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: rgb(8, 37, 77);
+    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
+    border-bottom: 10px solid #0081CC;
+}
+
+.logo {
+    background-image: url(imgs/Logo_Tab.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: fit-content;
+    z-index: 1;
+    position: absolute;
+    top: -20%;
+    left: 1rem;
+}
+
+.logo img {
+    width: 14rem;
+    padding: 4rem 2rem;
+    cursor: pointer;
+}
+
+.menu {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    align-items: center;
+}
+
+.menu img {
+    width: 5rem;
+}
+
+main {
+    overflow: hidden;
+}
+
+.img-main {
+    width: 99vw;
+    height: 99vh;
+}
+
+.img-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.games {
+    height: auto;
+}
+
+.sect-games {
+    background-image: url(imgs/cta_BG.png);
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sect-games p {
+    color: white;
+    font-size: 3rem;
+    font-family: "CCGeekSpeak W00 Regular";
+    -webkit-text-stroke: 2px rgb(48, 48, 48);
+    padding: 1% 0 1% 0;
+}
+
+.games {
+    background-image: url(imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30%;
+}
+
+.jogo {
+    padding: 10%;
+    height: fit-content;
+}
+
+.capa-e-img,
+.desc-e-jogar {
+    display: flex;
+}
+
+.capa-e-img {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    border-radius: 2%;
+}
+
+.crash1 {
+    background-image: url(imgs/games-art-bask/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.crash2 {
+    background-image: url(imgs/games-art-bask/2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.crash3 {
+    background-image: url(imgs/games-art-bask/3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ctr {
+    background-image: url(imgs/games-art-bask/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bash {
+    background-image: url(imgs/games-art-bask/5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.invi {
+    width: 70%;
+}
+
+
+.jogo-capa {
+    display: flex;
+}
+
+.jogo-capa img {
+    width: 100%;
+    height: 110%;
+}
+
+.desc-e-jogar {
+    margin-top: 5%;
+}
+
+.desc-e-jogar .descricao {
+    color: white;
+    width: 250%;
+    font-size: 1.2rem;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+.desc-e-jogar input {
+    height: 40%;
+    width: 100%;
+    margin-left: 5%;
+    width: 200%;
+    font-size: 1.8rem;
+    font-family: "CCGeekSpeak W00 Regular";
+    color: white;
+    background-image: url(imgs/cta_BG.png);
+    -webkit-text-stroke: 2px rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.desc-e-jogar input:hover {
+    background-image: url(imgs/cta_BG-hover.png);
+}
+
+footer {
+    height: 10rem;
+    background: rgb(8, 37, 77);
+    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
+    border-top: 10px solid #0081CC;
+    color: white;
+}
