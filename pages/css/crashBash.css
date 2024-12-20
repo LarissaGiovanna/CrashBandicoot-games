@@ -24,7 +24,7 @@ header section {
 }
 
 .logo {
-    background-image: url(imgs/Logo_Tab.png);
+    background-image: url(../../imgs/Logo_Tab.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: fit-content;
@@ -52,7 +52,7 @@ header section {
 
 main {
     overflow: hidden;
-    background-image: url(imgs/village1.jpg);
+    background-image: url(../../imgs/e6.jpg);
     background-size: 100%;
     height: 90vh;
     display: flex;
@@ -83,17 +83,6 @@ main {
 .game iframe {
     height: 25rem;
     width: 30rem;
-}
-
-.game img {
-    position: absolute;
-    height: 25rem;
-    width: 30rem;
-    z-index: 1;
-}
-
-.game img:hover {
-    display: none;
 }
 
 footer {

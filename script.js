@@ -4,17 +4,17 @@ logoImg.addEventListener('click', () => {
 })
 
 function loadCrash1() {
-    window.location.href = 'crash1.html'
+    window.location.href = 'pages/crash1.html'
 }
 function loadCrash2() {
-    window.location.href = 'crash2.html'
+    window.location.href = 'pages/crash2.html'
 }
 function loadCrash3() {
-    window.location.href = 'crash3.html'
+    window.location.href = 'pages/crash3.html'
 }
 function loadCtr() {
-    window.location.href = 'ctr.html'
+    window.location.href = 'pages/ctr.html'
 }
 function loadCrashBash() {
-    window.location.href = 'crashBash.html'
+    window.location.href = 'pages/crashBash.html'
 }
