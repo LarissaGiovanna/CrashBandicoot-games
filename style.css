@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
+@import url(https://db.onlinewebfonts.com/c/19f4723099f0a5f5d9e6a316534d90f5?family=CCZoinks+Regular);
 
 * {
     margin: 0;
@@ -60,11 +61,6 @@ main {
     background: url(imgs/background.jpg) no-repeat center center/cover;
 }
 
-/* .img-main img {
-    width: 100%;
-    height: 100%;
-} */
-
 .games {
     height: auto;
 }
@@ -79,14 +75,15 @@ main {
 .sect-games p {
     color: white;
     font-size: 3rem;
-    font-family: "CCGeekSpeak W00 Regular";
-    -webkit-text-stroke: 2px rgb(48, 48, 48);
-    padding: 1% 0 1% 0;
+    font-family: "CCGeeKSpeak W00 Regular";
+    text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+    padding: 1.5% 0 1.5% 0;
 }
 
 .games {
     background-image: url(imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
     background-size: 100%;
+    background-size: cover;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 30% 30%;
@@ -193,4 +190,36 @@ footer {
     background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
     border-top: 10px solid #0081CC;
     color: white;
+}
+footer{
+    padding: 0 5% 0 5%;
+}
+
+footer,
+.cred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.git a,
+.original a {
+    font-size: 1.3rem;
+    font-family: "CCZoinks Regular";
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5%;
+}
+
+.git,
+.original {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cred img {
+    width: 12%;
+    cursor: pointer;
 }
