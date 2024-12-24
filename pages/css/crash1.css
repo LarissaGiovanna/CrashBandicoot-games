@@ -1,5 +1,9 @@
 @import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
 @import url(https://db.onlinewebfonts.com/c/19f4723099f0a5f5d9e6a316534d90f5?family=CCZoinks+Regular);
+@font-face {
+    font-family: "TwCenMTStdSemiMedium";
+    src: url(../../TwCenMTStdSemiMedium.otf);
+}
 
 * {
     margin: 0;
@@ -11,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 10%;
+    height: 16%;
     z-index: 2;
 }
 
@@ -31,7 +35,7 @@ header section {
     width: fit-content;
     z-index: 1;
     position: absolute;
-    top: -20%;
+    top: -16%;
     left: 1rem;
 }
 
@@ -78,7 +82,7 @@ main {
 
 .game {
     position: relative;
-    margin-right: 10%;
+    margin-right: 16%;
 }
 
 .game iframe {
@@ -96,6 +100,78 @@ main {
 .game img:hover {
     display: none;
 }
+.info{
+    height: 100%;
+}
+.options{
+    background: url(../../imgs/cta_BG.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1.5%;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    font-family: "CCZoinks Regular";
+    color: white;
+    text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.options button:hover{
+    color: #fdf1ac;
+}
+
+.conteudo{
+     background: url(../../imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
+    height: auto;
+}
+
+.historia{
+    height: auto;
+}
+
+.historia section{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 16% 16% 16% 16% 16%;
+    gap: 5%;
+    padding: 1.5% 0 2% 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.historia section p{
+    color: white;
+    margin-top: 4%;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.historia .poster{
+    width: 30%;;
+}
+
+.historia .esboco, .gameplay-gif{
+    width: 50%;
+}
+
+.historia .box{
+    width: 35%;
+}
+
+.resumo, .personagens, .curiosidades{
+    display: none;
+}
 
 footer {
     height: 10rem;
@@ -111,7 +187,7 @@ footer,
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 16%;
 }
 
 .git a,

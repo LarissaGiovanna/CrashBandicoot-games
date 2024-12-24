@@ -7,6 +7,7 @@
     <title>Crash Bandicoot - Play</title>
     <link rel="stylesheet" href="css/crash1.css">
     <link rel="shortcut icon" href="../imgs/crash.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -36,15 +37,37 @@
                 id="game"></iframe>
         </div>
 
-        <section class="info">
-            <div class="options">
-                <button>Resumo</button>
-                <button>História</button>
-                <button>Personagens</button>
-                <button>Curiosidades</button>
-            </div>
-        </section>
     </main>
+    <section class="info">
+        <div class="options">
+            <button onclick="openResumo()">Resumo</button>
+            <button onclick="openHistoria()">História</button>
+            <button onclick="openPersonagens()">Personagens</button>
+            <button onclick="openCuriosidades()">Curiosidades</button>
+        </div>
+        <div class="conteudo">
+            <div class="resumo" id="resumo">
+                <p>Crash Bandicoot é um jogo eletrônico de plataforma criado por Andy Gavin e Jason Rubin e desenvolvido pela Naughty Dog. Foi lançado pela Sony Computer Entertainment para o PlayStation em setembro de 1996. O jogo é ambientado nas fictícias Ilhas Wumpa, um arquipélago situado na costa noroeste da Austrália, e segue a jornada do protagonista Crash Bandicoot, um marsupial geneticamente alterado que deve resgatar sua namorada Tawna, derrotar o cientista do mal Dr. Neo Cortex e evitar que ele domine o mundo.</p>
+            </div>
+            <div class="historia" id="historia">
+                <section>
+                    <p>O desenvolvimento de Crash Bandicoot, lançado em 1996, marcou um ponto crucial na história dos videogames, consolidando a Naughty Dog como um dos principais estúdios da indústria. O projeto teve início em 1994, quando Andy Gavin e Jason Rubin, fundadores da Naughty Dog, decidiram criar um jogo de plataforma em 3D que aproveitasse ao máximo o potencial do novo console da Sony, o PlayStation.</p>
+                    <model-viewer src="../models/playstation_1.glb" alt="PlayStation 1 3D Model" auto-rotate loading="eager" camera-orbit="55.17deg 64.19deg 63.87m" field-of-view="30deg" poster="../models/poster.webp"></model-viewer>
+                    <p>Inspirados por títulos como Donkey Kong Country e Super Mario 64, Gavin e Rubin queriam desenvolver um jogo que oferecesse uma experiência gráfica inovadora e uma jogabilidade fluida. Para isso, criaram uma ferramenta de desenvolvimento própria chamada "Game Oriented Object Lisp" (GOOL), que permitia o controle preciso da animação e dos movimentos dos personagens. A equipe de desenvolvimento cresceu rapidamente, contando com artistas, animadores e programadores talentosos.
+                    </p>
+                    <img src="../imgs/cb-poster.jpeg" alt="Crash Bandicoot Poster" class="poster">
+                    <p>O protagonista do jogo, Crash Bandicoot, foi projetado para ser carismático e diferenciado. Seu design passou por diversas alterações até atingir a forma final, um marsupial nativo da Austrália, cujo visual vibrante e expressões exageradas foram pensados para se destacar no mercado. A escolha de um personagem que não falava durante o jogo foi uma estratégia para aumentar a identificação do público com Crash.</p>
+                    <img src="../imgs/crash-bandicoot-origin-2.jpg" alt="Crash Bandicoot Esboço de Personagem" class="esboco">
+                    <p>Durante o desenvolvimento, a Naughty Dog enfrentou desafios técnicos, principalmente relacionados às limitações de memória do PlayStation. A solução encontrada foi utilizar um sistema de câmera fixa que seguia Crash por corredores, economizando recursos e criando uma experiência visual mais dinâmica. Essa abordagem também contribuiu para a identidade visual única do jogo.</p>
+                    <img src="../imgs/cb1-gameplay.gif" alt="Crash Bandicoot Gameplay" class="gameplay-gif">
+                    <p>Crash Bandicoot foi lançado em setembro de 1996 e rapidamente se tornou um sucesso de vendas, recebendo elogios pela qualidade gráfica, pela trilha sonora vibrante e pela jogabilidade desafiadora. O jogo não apenas ajudou a impulsionar as vendas do PlayStation, mas também estabeleceu Crash como um ícone da era 32-bits, competindo diretamente com mascotes de outras empresas, como Mario e Sonic.</p>
+                    <img src="../imgs/cb-ps1-box.jpg" alt="Crash Bandicoot PlayStation 1 Box" class="box">
+                </section>
+            </div>
+            <div class="personagens" id="personagens">a</div>
+            <div class="curiosidades" id="curiosidades">b</div>
+        </div>
+    </section>
     
     <footer>
         <section class="cred">
