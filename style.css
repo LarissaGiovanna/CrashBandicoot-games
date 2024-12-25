@@ -1,6 +1,11 @@
 @import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
 @import url(https://db.onlinewebfonts.com/c/19f4723099f0a5f5d9e6a316534d90f5?family=CCZoinks+Regular);
 
+@font-face {
+    font-family: "TwCenMTStdSemiMedium";
+    src: url(../../TwCenMTStdSemiMedium.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -164,7 +169,8 @@ main {
     color: white;
     width: 250%;
     font-size: 1.2rem;
-    font-family: 'Lucida Grande', sans-serif;
+    font-family: 'TwCenMTStdSemiMedium', sans-serif;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
 }
 
 .desc-e-jogar input {

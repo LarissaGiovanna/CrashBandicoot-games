@@ -1,5 +1,6 @@
 @import url(https://db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeak+W00+Regular);
 @import url(https://db.onlinewebfonts.com/c/19f4723099f0a5f5d9e6a316534d90f5?family=CCZoinks+Regular);
+
 @font-face {
     font-family: "TwCenMTStdSemiMedium";
     src: url(../../TwCenMTStdSemiMedium.otf);
@@ -100,10 +101,12 @@ main {
 .game img:hover {
     display: none;
 }
-.info{
+
+.info {
     height: 100%;
 }
-.options{
+
+.options {
     background: url(../../imgs/cta_BG.png);
     display: flex;
     justify-content: center;
@@ -112,7 +115,7 @@ main {
     padding: 1.5%;
 }
 
-.options button{
+.options button {
     background: transparent;
     border: none;
     font-size: 1.5rem;
@@ -125,31 +128,36 @@ main {
     text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
 }
 
-.options button:hover{
+.options button:hover {
     color: #fdf1ac;
 }
 
-.conteudo{
-     background: url(../../imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
+.conteudo {
+    background: url(../../imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
     height: auto;
 }
 
-.historia{
+.resumo{
+    padding: 1.5% 7% 1.5% 7%;
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.historia {
     height: auto;
 }
 
-.historia section{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 16% 16% 16% 16% 16%;
-    gap: 5%;
-    padding: 1.5% 0 2% 0;
+.historia section {
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
 }
 
-.historia section p{
+.historia section p {
     color: white;
     margin-top: 4%;
     font-family: "TwCenMTStd", sans-serif;
@@ -157,20 +165,74 @@ main {
     text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
 }
 
-.historia .poster{
-    width: 30%;;
+.historia img{
+    width: 30%;
+    margin: 2%;
 }
 
-.historia .esboco, .gameplay-gif{
-    width: 50%;
+.historia model-viewer {
+    width: 100%;
+    margin: 2%;
 }
 
-.historia .box{
-    width: 35%;
-}
-
-.resumo, .personagens, .curiosidades{
+.historia,
+.personagens,
+.curiosidades {
     display: none;
+}
+
+.personagens section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
+}
+
+.personagens h2{
+    color: white;
+    font-family: "CCZoinks Regular", sans-serif;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.personagens p{
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.personagens img {
+    width: 15%;
+    margin: 2%;
+}
+
+.curiosidades section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
+}
+
+.curiosidades h2{
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: "CCZoinks Regular", sans-serif;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.curiosidades li{
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.curiosidades img{
+    width: 30%;
+    margin: 2%;
 }
 
 footer {
