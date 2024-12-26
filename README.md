@@ -1,3 +1,3 @@
-Website about the Crash Bandicoot game.
+Website about Crash Bandicoot games.
 
-Site sobre o jogo Crash Bandicoot.
+Site sobre os jogos Crash Bandicoot.
