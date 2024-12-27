@@ -30,7 +30,7 @@ header section {
 }
 
 .logo {
-    background-image: url(imgs/Logo_Tab.png);
+    background-image: url(../../imgs/Logo_Tab.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: fit-content;
@@ -63,7 +63,7 @@ main {
 .img-main {
     width: 100vw;
     height: 100vh;
-    background: url(imgs/background.jpg) no-repeat center center/cover;
+    background: url(../../imgs/background.jpg) no-repeat center center/cover;
 }
 
 .games {
@@ -71,7 +71,7 @@ main {
 }
 
 .sect-games {
-    background-image: url(imgs/cta_BG.png);
+    background-image: url(../../imgs/cta_BG.png);
     height: auto;
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ main {
 }
 
 .games {
-    background-image: url(imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
+    background-image: url(../../imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
     background-size: 100%;
     background-size: cover;
     display: grid;
@@ -112,31 +112,31 @@ main {
 }
 
 .crash1 {
-    background-image: url(imgs/games-art-bask/1.jpg);
+    background-image: url(../../imgs/games-art-bask/1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .crash2 {
-    background-image: url(imgs/games-art-bask/2.jpg);
+    background-image: url(../../imgs/games-art-bask/2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .crash3 {
-    background-image: url(imgs/games-art-bask/3.jpg);
+    background-image: url(../../imgs/games-art-bask/3.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .ctr {
-    background-image: url(imgs/games-art-bask/4.jpg);
+    background-image: url(../../imgs/games-art-bask/4.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .bash {
-    background-image: url(imgs/games-art-bask/5.jpg);
+    background-image: url(../../imgs/games-art-bask/5.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -181,13 +181,13 @@ main {
     font-size: 1.8rem;
     font-family: "CCGeekSpeak W00 Regular";
     color: white;
-    background-image: url(imgs/cta_BG.png);
+    background-image: url(../../imgs/cta_BG.png);
     -webkit-text-stroke: 2px rgb(48, 48, 48);
     cursor: pointer;
 }
 
 .desc-e-jogar input:hover {
-    background-image: url(imgs/cta_BG-hover.png);
+    background-image: url(../../imgs/cta_BG-hover.png);
 }
 
 footer {
