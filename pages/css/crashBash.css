@@ -126,3 +126,141 @@ footer,
     width: 12%;
     cursor: pointer;
 }
+
+.info {
+    height: 100%;
+}
+
+.options {
+    background: url(../../imgs/cta_BG.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1.5%;
+}
+
+.options button {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    font-family: "CCZoinks Regular";
+    color: white;
+    text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.options button:hover {
+    color: #fdf1ac;
+}
+
+.conteudo {
+    background: url(../../imgs/CTR_Cavern_Background_FullSiteLength_Tile_1.png);
+    height: auto;
+}
+
+.resumo {
+    padding: 1.5% 7% 1.5% 7%;
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.historia {
+    height: auto;
+}
+
+.historia section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
+}
+
+.historia section p {
+    color: white;
+    margin-top: 4%;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.historia img {
+    width: 30%;
+    margin: 2%;
+}
+
+.historia model-viewer {
+    width: 100%;
+    margin: 2%;
+}
+
+.historia,
+.personagens,
+.curiosidades {
+    display: none;
+}
+
+.personagens section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
+}
+
+.personagens h2 {
+    color: white;
+    font-family: "CCZoinks Regular", sans-serif;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.personagens p {
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.personagens img {
+    width: 15%;
+    margin: 2%;
+}
+
+.curiosidades section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 7% 1% 7%;
+    gap: 10%;
+}
+
+.curiosidades h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: "CCZoinks Regular", sans-serif;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.curiosidades li {
+    color: white;
+    font-family: "TwCenMTStd", sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+}
+
+.curiosidades img {
+    width: 30%;
+    margin: 2%;
+}
+
+model-viewer {
+    width: 100%;
+    margin: 2%;
+}

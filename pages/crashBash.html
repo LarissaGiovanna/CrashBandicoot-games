@@ -7,6 +7,7 @@
     <title>Crash Bash - Play</title>
     <link rel="stylesheet" href="css/crashBash.css">
     <link rel="shortcut icon" href="../imgs/CTRNF-BowlingBomb-removebg-preview.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -37,19 +38,147 @@
 
         </section>
     </main>
+    <section class="info">
+        <div class="options">
+            <button onclick="openResumo()">Resumo</button>
+            <button onclick="openHistoria()">História</button>
+            <button onclick="openPersonagens()">Personagens</button>
+            <button onclick="openCuriosidades()">Curiosidades</button>
+        </div>
+        <div class="conteudo">
+            <div class="resumo" id="resumo">
+                <p>Crash Bash é um jogo de festa lançado em 2000 para PlayStation. Diferente dos jogos de plataforma e
+                    corrida da série, ele foca em minijogos competitivos para até quatro jogadores. Na história, Aku Aku
+                    e Uka Uka organizam uma disputa para decidir o destino do mundo, com personagens divididos em times
+                    do bem e do mal. O jogo inclui diversos modos, como batalhas, desafios e bosses, com minijogos
+                    variados que testam habilidades de combate, agilidade e estratégia. Crash Bash é lembrado por seu
+                    multiplayer divertido e caótico, sendo o único jogo da série desenvolvido pela Eurocom.</p>
+            </div>
+            <div class="historia" id="historia">
+                <section>
+                    <p>Crash Bash foi lançado em 2000 para PlayStation e foi um desvio em relação aos tradicionais jogos
+                        de plataforma e corrida da franquia Crash Bandicoot. Desenvolvido pela Eurocom, foi o único
+                        título da série que não foi criado pela Naughty Dog, o estúdio responsável pelos primeiros
+                        jogos. A Eurocom, conhecida por seu trabalho em jogos de festa e multiplayer, recebeu a tarefa
+                        de criar um título focado em minijogos para até quatro jogadores, em vez de seguir a fórmula
+                        clássica de plataforma.</p>
+                    <img src="../imgs/Crash_Bash-box.jpg" alt="Crash Bash Box Art">
+                </section>
+                <section>
+                    <p>O desenvolvimento de Crash Bash foi uma tentativa de expandir a franquia Crash para o mercado de
+                        jogos multiplayer, que estava em alta na época. O conceito do jogo envolvia minijogos baseados
+                        em mecânicas simples, como corrida, combate e resolução de puzzles. A ideia era criar um jogo
+                        acessível e divertido para jogar com amigos, com a possibilidade de disputar em diferentes
+                        modos, como batalhas e desafios.</p>
+                    <img src="../imgs/bash-gameplay.jpg" alt="Gameplay de Crash Bash">
+                </section>
+                <section>
+                    <p>A história de Crash Bash é centrada na disputa entre Aku Aku e Uka Uka, que organizam uma
+                        competição para determinar o destino do mundo. Os jogadores escolhem entre os personagens do bem
+                        (Crash, Coco, Dingo e Polar) e do mal (Cortex, Dingodile, Tiny e Rilla Roo), competindo em uma
+                        série de eventos que testam habilidades como velocidade, controle e precisão.</p>
+                    <img src="../imgs/bash-personagens.png" alt="Personagens do Crash Bash">
+                </section>
+                <section>
+                    <p>Embora o jogo tenha sido bem-recebido por sua jogabilidade divertida e seu modo multiplayer
+                        caótico, ele não alcançou o mesmo nível de sucesso que os outros títulos da série Crash
+                        Bandicoot. Isso se deve, em parte, à falta de inovação em comparação com outros jogos de festa
+                        da época, como Mario Party. Apesar disso, Crash Bash ainda é lembrado como um título divertido,
+                        especialmente para quem gostava de jogar com amigos, e é visto por muitos como uma curiosidade
+                        na evolução da franquia Crash.</p>
+                    <img src="../imgs/cb-sales.png" alt="Vendas dos jogos de Crash Bandicoot">
+                </section>
+            </div>
+            <div class="personagens" id="personagens">
+                <section>
+                    <h2>Crash Bandicoot</h2>
+                    <p>O protagonista da série, representando o bem. É equilibrado em termos de habilidades, sendo uma
+                        escolha versátil para os minijogos.
+                    </p>
+                    <img src="../imgs/Crash_Bash_Crash_Bandicoot.jpg" alt="Crash Bandicoot do Crash Bash">
+                </section>
+                <section>
+                    <h2>Dr. Neo Cortex</h2>
+                    <p>O vilão principal da franquia, que lidera o time do mal. Ele é equilibrado, com boas habilidades
+                        em combate e velocidade.</p>
+                    <img src="../imgs/Crash_Bash_Doctor_Neo_Cortex.jpg" alt="Dr. Neo Cortex do Crash Bash">
+                </section>
+                <section>
+                    <h2>Coco Bandicoot</h2>
+                    <p>Irmã de Crash, também do lado do bem. Ela tem habilidades semelhantes às de Crash, mas com uma
+                        leve vantagem em agilidade e controle.</p>
+                    <img src="../imgs/Crash_Bash_Coco_Bandicoot.jpg" alt="Coco Bandicoot em Crash Bash">
+                </section>
+                <section>
+                    <h2>Dingodile</h2>
+                    <p> Um personagem do lado do mal, meio híbrido entre um dingo e um crocodilo. Ele é forte, mas mais
+                        lento, com foco em ataques poderosos.</p>
+                    <img src="../imgs/Crash_Bash_Dingodile.jpg" alt="Dingodile em Crash Bash">
+                </section>
+                <section>
+                    <h2>Tiny Tiger</h2>
+                    <p>Um dos vilões da série, do lado do mal. Ele é forte e pesado, com alta resistência, mas tem
+                        dificuldade em manobras rápidas.</p>
+                    <img src="../imgs/Crash_Bash_Tiny_Tiger.jpg" alt="Tiny Tiger do Crash Bash">
+                </section>
+                <section>
+                    <h2>Rilla Roo</h2>
+                    <p>Outro personagem do mal, um gorila. Ele é equilibrado em velocidade e controle, sendo uma opção
+                        sólida em várias situações.</p>
+                    <img src="../imgs/rilla-roo.jpg" alt="Rilla Roo em Crash Bash">
+                </section>
+            </div>
+            <div class="curiosidades" id="curiosidades">
+                <h2>Algumas curiosidades sobre Crash Bash</h2>
+                <section>
+                    <img src="../imgs/eurocom.png" alt="Logo da Eurocom">
+                    <li>Desenvolvimento pela Eurocom: Crash Bash foi o único jogo da franquia Crash Bandicoot
+                        desenvolvido pela Eurocom, em vez da Naughty Dog, responsável pelos títulos anteriores.</li>
+                </section>
+                <section>
+                    <img src="../imgs/mario-party.jpg" alt="Mario Party">
+                    <li>Falta de Inovação: Embora tenha sido bem recebido pelo modo multiplayer, Crash Bash não se
+                        destacou tanto quanto outros jogos de festa como Mario Party, por falta de inovações no gênero.
+                    </li>
+                </section>
+                <section>
+                    <model-viewer src="../models/playstation_2.glb" alt="PlayStation 2 3D Model" auto-rotate
+                        loading="eager" camera-orbit="48.34deg 69.31deg 5.398m" field-of-view="30deg"
+                        poster="../models/poster2.webp"></model-viewer>
+                    <li>Faltou uma Versão para PS2: Apesar de seu sucesso no PlayStation, Crash Bash nunca foi portado
+                        para o PlayStation 2, o que o manteve como um título exclusivo da geração anterior.</li>
+                </section>
+                <section>
+                    <img src="../imgs/Crash_Bash_You_Fail.jpg" alt="Tela de game over em Crash Bash">
+                    <li>Censura em Alguns Países: Em alguns países, o jogo foi censurado devido à violência leve, como
+                        em cenas onde personagens trocam golpes em alguns dos minijogos. Isso foi particularmente notado
+                        em algumas versões europeias.</li>
+                </section>
+                <section>
+                    <img src="../imgs/crash-bash-ending.jpg" alt="Aku Aku conversando com Crash e Coco">
+                    <li>Tamanho e Duração do Jogo: Crash Bash é relativamente curto em comparação com outros jogos da
+                        franquia, já que seu foco principal é o multiplayer e não uma narrativa complexa. Muitos
+                        jogadores concluíam o jogo rapidamente, mas ainda assim se divertiam nas batalhas e minijogos.
+                    </li>
+                </section>
+            </div>
+        </div>
+    </section>
     <footer>
         <section class="cred">
             <div class="original">
-                <img src="../imgs/crash.png" alt="Crash Bandicoot Logo" onclick="window.location.href='https://crashbandicoot.com'">
+                <img src="../imgs/crash.png" alt="Crash Bandicoot Logo"
+                    onclick="window.location.href='https://crashbandicoot.com'">
                 <a href="https://crashbandicoot.com">Site original (inspiração)</a>
             </div>
             <div class="git">
-                <img src="../imgs/github-logo.png" alt="GitHub Logo" onclick="window.location.href='https://github.com/LarissaGiovanna'">
+                <img src="../imgs/github-logo.png" alt="GitHub Logo"
+                    onclick="window.location.href='https://github.com/LarissaGiovanna'">
                 <a href="https://github.com/LarissaGiovanna">LarissaGiovanna</a>
             </div>
         </section>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/pages.js"></script>
 </body>
 
 </html>
