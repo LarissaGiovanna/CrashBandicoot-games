@@ -3,6 +3,17 @@ logoImg.addEventListener('click', () => {
     window.location.href = 'index.html'
 })
 
+function menuOpen(){
+    let menu = document.getElementById('menu-options');
+    console.log('ok')
+    console.log(menu.style.display)
+    if(menu.style.display == 'none' || menu.style.display == ''){
+        menu.style.display = 'flex';
+    }else{
+        menu.style.display = 'none';
+    }
+}
+
 function loadCrash1() {
     window.location.href = 'pages/crash1.html'
 }
@@ -19,14 +30,3 @@ function loadCrashBash() {
     window.location.href = 'pages/crashBash.html'
 }
 
-
-function menuOpen(){
-    let menu = document.getElementById('menu-options');
-    console.log('ok')
-    console.log(menu.style.display)
-    if(menu.style.display == 'none' || menu.style.display == ''){
-        menu.style.display = 'flex';
-    }else{
-        menu.style.display = 'none';
-    }
-}

@@ -3,6 +3,17 @@ let curiosidades = document.getElementById('curiosidades');
 let historia = document.getElementById('historia');
 let personagens = document.getElementById('personagens');
 
+function menuOpen(){
+    let menu = document.getElementById('menu-options');
+    console.log('ok')
+    console.log(menu.style.display)
+    if(menu.style.display == 'none' || menu.style.display == ''){
+        menu.style.display = 'flex';
+    }else{
+        menu.style.display = 'none';
+    }
+}
+
 function openResumo() {
     resumo.style.display = 'block';
     curiosidades.style.display = 'none';
