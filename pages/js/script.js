@@ -18,3 +18,15 @@ function loadCtr() {
 function loadCrashBash() {
     window.location.href = 'pages/crashBash.html'
 }
+
+
+function menuOpen(){
+    let menu = document.getElementById('menu-options');
+    console.log('ok')
+    console.log(menu.style.display)
+    if(menu.style.display == 'none' || menu.style.display == ''){
+        menu.style.display = 'flex';
+    }else{
+        menu.style.display = 'none';
+    }
+}
