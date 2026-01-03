@@ -49,7 +49,14 @@ header section {
 .menu {
     padding-top: 0.5rem;
     padding-right: 0.5rem;
+    height: 15vh;
     align-items: center;
+}
+
+#menu-icon {
+    display: none;
+    width: 4rem;
+    cursor: pointer;
 }
 
 #menu-options {
@@ -256,4 +263,36 @@ footer,
 .cred img {
     width: 12%;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu{
+        height: 10vh;
+        display: flex;
+    }
+    #menu-icon{
+        display: block;
+    }
+    #menu-options{
+        width: 60vw;
+    }
+    #menu-options a{
+        font-size: 2.3rem;
+    }
+    .img-main{
+        height: 70vh;
+    }
+
+    .games{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+
+    .cred img{
+        width: 25%;
+    }
+    .cred a{
+        font-size: 1.7rem;
+    }
 }
