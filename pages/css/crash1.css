@@ -12,78 +12,6 @@
     box-sizing: border-box;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 16%;
-    z-index: 2;
-}
-
-header section {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    background: rgb(8, 37, 77);
-    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
-    border-bottom: 10px solid #0081CC;
-}
-
-.logo {
-    background-image: url(../../imgs/Logo_Tab.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: fit-content;
-    z-index: 1;
-    position: absolute;
-    top: -16%;
-    left: 1rem;
-}
-
-.logo img {
-    width: 14rem;
-    padding: 4rem 2rem;
-    cursor: pointer;
-}
-
-.menu {
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    align-items: center;
-}
-
-.menu img {
-    width: 5rem;
-}
-
-#menu-options {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    position: absolute;
-    right: 0;
-    background: linear-gradient(0deg, rgba(20,86,125,1) 0%, rgba(0,129,204,1) 100%);;
-    border: none;
-}
-
-.menu-options {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: fit-content;
-    padding: 5%;
-}
-
-.menu-options a {
-    font-size: 1.5rem;
-    font-family: "twCenMTStdSemiMedium", sans-serif;
-    text-shadow: #000000 -2px 2px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
-    text-decoration: none;
-    color: white;
-    margin: 0.5rem;
-}
-
 main {
     overflow: hidden;
     background-image: url(../../imgs/village1.jpg);
@@ -263,40 +191,57 @@ main {
     margin: 2%;
 }
 
-footer {
-    height: 10rem;
-    background: rgb(8, 37, 77);
-    background: linear-gradient(0deg, rgba(8, 37, 77, 1) 0%, rgba(2, 67, 134, 1) 100%);
-    border-top: 10px solid #0081CC;
-    color: white;
-    padding: 0 5% 0 5%;
-}
+@media (max-width: 900px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        justify-content: center;
+    }
+    main .game{
+        margin: 4% 0 4% 0;
+    }
 
-footer,
-.cred {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16%;
-}
+    .options{
+        height: 15vh;
+        align-items: center;
+        
+    }
+    .options button{
+        font-size: 2rem;
+        width: 14rem;
+        height: 2.5rem;
+    }
 
-.git a,
-.original a {
-    font-size: 1.3rem;
-    font-family: "CCZoinks Regular";
-    text-decoration: none;
-    color: white;
-    margin-left: 1.5%;
-}
+    .conteudo p{
+        font-size: 1.7rem;
+    }
+    .resumo, .historia, .personagens, .curiosidades{
+        padding: 4% 4% 4% 4%;
+    }
 
-.git,
-.original {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .historia section{
+        flex-direction: column;
+    }
+    .historia img{
+        width: 70%;
+    }
 
-.cred img {
-    width: 12%;
-    cursor: pointer;
+    .personagens h2{
+        font-size: 2.5rem;
+    }
+
+    .curiosidades section{
+        flex-direction: column-reverse;
+    }
+    .curiosidades h2{
+        font-size: 2.5rem;
+        margin-bottom: 2%
+    }
+    .curiosidades img{
+        width: 70%;
+    }
+    .curiosidades li{
+        font-size: 1.7rem;
+    }
 }
