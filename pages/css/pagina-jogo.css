@@ -244,3 +244,77 @@ main {
         font-size: 1.7rem;
     }
 }
+
+@media (max-width: 400px) {
+    main {
+        height: auto;
+        min-height: 50vh;
+        padding: 2% 0;
+    }
+    
+    .sobre img {
+        width: 80%;
+    }
+    
+    .game iframe {
+        height: 18rem;
+        width: 22rem;
+        max-width: 95vw;
+    }
+    
+    .game img {
+        height: 18rem;
+        width: 22rem;
+        max-width: 95vw;
+    }
+    
+    .options {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 3%;
+        gap: 2%;
+    }
+    
+    .options button {
+        font-size: 1.3rem;
+        width: 48%;
+        height: 2.5rem;
+        margin: 1% 0;
+    }
+    
+    .conteudo p {
+        font-size: 1.2rem;
+    }
+    
+    .resumo, .historia, .personagens, .curiosidades {
+        padding: 5%;
+    }
+    
+    .historia img {
+        width: 90%;
+    }
+    
+    .personagens h2 {
+        font-size: 1.8rem;
+    }
+    
+    .personagens p {
+        font-size: 1.2rem;
+    }
+    
+    .personagens img {
+        width: 40%;
+    }
+    
+    .curiosidades h2 {
+        font-size: 1.8rem;
+    }
+    
+    .curiosidades li {
+        font-size: 1.2rem;
+    }
+    
+    .curiosidades img {
+        width: 90%;
+    }
+}
