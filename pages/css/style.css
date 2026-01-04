@@ -298,6 +298,70 @@ footer,
     }
 }
 
+@media (max-width: 400px) {
+    .logo {
+        left: 0.3rem;
+        top: -10%;
+    }
+    
+    .logo img {
+        width: 9rem;
+        padding: 2rem 1rem;
+    }
+    
+    #menu-icon {
+        width: 3rem;
+    }
+    
+    #menu-options {
+        width: 75vw;
+    }
+    
+    .menu-options a {
+        font-size: 1.8rem;
+    }
+    
+    .sect-games p {
+        font-size: 2rem;
+        padding: 3% 0;
+    }
+    
+    .jogo {
+        padding: 5%;
+    }
+    
+    .desc-e-jogar .descricao {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    
+    .desc-e-jogar input {
+        font-size: 1.3rem;
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+    
+    .cred {
+        flex-direction: column;
+        gap: 5%;
+    }
+    
+    .cred img {
+        width: 20%;
+    }
+    
+    .git a,
+    .original a {
+        font-size: 1rem;
+    }
+    
+    footer {
+        height: auto;
+        padding: 1rem 2%;
+    }
+}
+
 @media (min-width: 1040px) {
     .menu{
         height: 15vh;
