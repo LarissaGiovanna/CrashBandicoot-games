@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     position: sticky;
     top: 0;
@@ -41,7 +42,7 @@ header section {
 }
 
 .logo img {
-    width: 14rem;
+    width: 14rem; 
     padding: 4rem 2rem;
     cursor: pointer;
 }
