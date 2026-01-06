@@ -202,14 +202,16 @@ main {
     }
 
     .options{
-        height: 15vh;
-        align-items: center;
-        
+        height: auto;
+        flex-wrap: wrap;
+        padding: 3%;
+        gap: 2%;
     }
     .options button{
-        font-size: 2rem;
-        width: 14rem;
+        font-size: 1.7rem;
+        width: 48%;
         height: 2.5rem;
+        margin: 1% 0;
     }
 
     .conteudo p{
